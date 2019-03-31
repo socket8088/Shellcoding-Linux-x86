@@ -3,6 +3,7 @@
 ; Website:  http://securitytube.net
 ; Training: http://securitytube-training.com
 ; Student: Xavi Bel
+; JMP-CALL-POP technique
 
 global _start
 
