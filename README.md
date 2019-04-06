@@ -1,2 +1,3 @@
 # Shellcoding-Linux-x86
-Interesting Assembly shellcode written during the SLAE course certification.
+
+SLAE course certification material and shellcode written.
