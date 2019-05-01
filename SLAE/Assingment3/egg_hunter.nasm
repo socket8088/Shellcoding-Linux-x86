@@ -13,7 +13,6 @@ next_page:
 
 next_address:
 	inc edx 
-	;lea ebx, [edx + 0x4]
 	mov ebx, edx
 	xor eax, eax
 	mov al, 0x21
