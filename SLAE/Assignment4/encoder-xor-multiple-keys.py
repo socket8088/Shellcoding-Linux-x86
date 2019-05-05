@@ -14,11 +14,6 @@ for x in bytearray(shellcode) :
 
 	if  i == 11:
 		i = 1
-
-	#y = y + 0x01 
-	# XOR
-
-	print (hex(i))
 	y = x^i
 	encoded += '\\x'
 	encoded += '%02x' % y
